@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let number of numbers">
+      <a [routerLink]="['/collatz', number]">Collatz del número {{ number }}</a>
+    </li>
+  </ul>
